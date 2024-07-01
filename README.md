@@ -14,6 +14,9 @@ if(listOfAccount == null) {
 if(listOfAccount.size() == 0)) {
   listOfAccount.add(anAccount);
 }
+if(listOfAccount.size() > 0)) {
+  insert listOfAccount;
+}
 ```
 
 ### For better readability, we can write:
@@ -29,6 +32,8 @@ if(Verify.isNull(listOfAccount)) {
 if(Verify.isNotAny(listOfAccount) {
   listOfAccount.add(anAccount);
 }
-
+if(Verify.isAny(listOfAccount)) {
+  insert listOfAccount;
+}
 ```
 
