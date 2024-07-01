@@ -6,7 +6,7 @@ This will make the code more readable instead of literal check
 Account anAccount;
 List<Account> listOfAccount;
 if(anAccount == null) {
-    anAccount = new Account();
+  anAccount = new Account();
 }
 if(listOfAccount == null) {
   listOfAccount = new List<Account>();
@@ -21,7 +21,7 @@ if(listOfAccount.size() == 0)) {
 Account anAccount;
 List<Account> listOfAccount;
 if(Verify.isNull(anAccount)) {
-    anAccount = new Account();
+  anAccount = new Account();
 }
 if(Verify.isNull(listOfAccount)) {
   listOfAccount = new List<Account>();
