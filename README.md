@@ -11,7 +11,7 @@ if(anAccount == null) {
 if(listOfAccount == null) {
   listOfAccount = new List<Account>();
 }
-if(!(listOfAccount?.size() > 0)) {
+if(listOfAccount.size() == 0)) {
   listOfAccount.add(anAccount);
 }
 ```
